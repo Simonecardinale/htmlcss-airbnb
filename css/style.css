@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 
-/* box */
+/* box generale */
 
 .city-box {
   width: 100%;
   height: 100vh;
-  background-image: url('https://cdn.pixabay.com/photo/2016/07/07/18/27/palermo-1502989__340.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
+  margin: 20px 0;
+  border: 3px solid brown;
 }
 
 .layover {
@@ -32,3 +33,29 @@ h2 {
   color: white;
   text-shadow: 7px 0  rgb(28, 29, 29);
 }
+
+/* /box generale */
+
+/* palermo */
+
+#palermo {
+  background-image: url('https://cdn.pixabay.com/photo/2016/07/07/18/27/palermo-1502989__340.jpg');
+}
+
+/* /palermo */
+
+/* roma */
+
+#roma {
+  background-image: url('https://cdn.pixabay.com/photo/2014/03/26/05/47/vittorio-emanuele-monument-298412__340.jpg');
+}
+
+/* /roma */
+
+/* torino */
+
+#torino {
+  background-image: url('https://cdn.pixabay.com/photo/2014/09/07/22/25/piazza-vittorio-438449__340.jpg');
+}
+
+/* /torino */
