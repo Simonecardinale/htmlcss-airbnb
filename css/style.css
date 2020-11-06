@@ -30,8 +30,20 @@ h2 {
   top: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
-  color: white;
   text-shadow: 7px 0  rgb(28, 29, 29);
+}
+
+.city-box:hover h2 {
+  border-bottom: 3px solid red;
+ }
+
+h2:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* /box generale */
